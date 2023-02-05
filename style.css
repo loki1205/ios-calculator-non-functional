@@ -95,10 +95,6 @@ svg{
     font-family: "Roboto";
 }
 
-.numbers:hover{
-    filter: brightness(0.85);
-}
-
 .number-grid-2{
     display:grid;
     grid-template-columns: 2fr 1fr 1fr;
@@ -106,6 +102,8 @@ svg{
     column-gap: 1px;
     margin-top:1px;
 }
+
+
 
 .operators {
     background-color: #FF9500;
@@ -116,3 +114,14 @@ svg{
     background-color: #aaa;
 }
 
+@media screen and (max-width:900px) {
+    .numbers:active{
+        filter: brightness(0.85);
+    }
+}
+
+@media screen and (min-width:901px) {
+    .numbers:hover{
+        filter: brightness(0.85);
+    }
+}
