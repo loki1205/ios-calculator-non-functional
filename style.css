@@ -95,6 +95,10 @@ svg{
     font-family: "Roboto";
 }
 
+.numbers:hover{
+    filter: brightness(0.85);
+}
+
 .number-grid-2{
     display:grid;
     grid-template-columns: 2fr 1fr 1fr;
